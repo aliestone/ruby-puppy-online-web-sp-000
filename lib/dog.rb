@@ -18,6 +18,7 @@ attr_accessor :name
   end
 
   def self.print_all
+    all = @@all
     all.each do |item|
     puts item
   end

@@ -21,6 +21,9 @@ attr_accessor :name
     @@all.each do |x|
       puts x.name
   end
+
+  def self.clear_all 
+    @@all.clear
 end
 
 end

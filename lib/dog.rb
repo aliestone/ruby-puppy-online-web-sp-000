@@ -1,12 +1,9 @@
-class Dog 
+class Dog
 
   @@all = []
 
-  def initialize 
+  def initialize
     @@all << self
   end
 
 end
-
-    
-    

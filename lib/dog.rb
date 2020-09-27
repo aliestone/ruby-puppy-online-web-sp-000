@@ -19,7 +19,7 @@ attr_accessor :name
 
   def self.print_all(doggie)
     @@all.each do |doggie|
-    puts item
+    puts doggie.name
   end
 end
 

@@ -12,4 +12,8 @@ attr_accessor :name
     @@all << self
   end
 
+  self.all
+    return @@all
+  end
+
 end

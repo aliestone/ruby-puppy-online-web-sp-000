@@ -22,7 +22,7 @@ attr_accessor :name
       puts x.name
   end
 
-  def self.clear_all 
+  def self.clear_all
     @@all.clear
 end
 

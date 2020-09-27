@@ -12,8 +12,13 @@ attr_accessor :name
     @@all << self
   end
 
-  self.all
+  def self.all
     return @@all
   end
+
+  def self.print_all
+    puts @@all
+  end
+
 
 end

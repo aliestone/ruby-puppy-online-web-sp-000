@@ -9,8 +9,8 @@ attr_accessor :name
     self.save
   end
 
-  def save
-    @@all << dog.new
+  def save(self)
+    @@all << self
   end
 
   def self.all

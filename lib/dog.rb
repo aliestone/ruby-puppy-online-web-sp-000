@@ -18,8 +18,8 @@ attr_accessor :name
   end
 
   def self.print_all
-    @@all.each do |dog|
-    print dog
+    @@all.each do |item|
+    puts item
   end
 end
 

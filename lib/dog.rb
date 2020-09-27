@@ -17,8 +17,7 @@ attr_accessor :name
   end
 
   def self.print_all
-    puts @@all
+    puts [@@all
   end
-
 
 end

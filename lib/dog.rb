@@ -13,6 +13,10 @@ attr_accessor :name
     @@all << self
   end
 
+  def self.clear_all
+    @@all.clear
+  end
+
   def self.all
     @@all
   end
@@ -22,8 +26,5 @@ attr_accessor :name
       puts x.name
   end
 
-  def self.clear_all
-    @@all.clear
-  end
-end
+
 end

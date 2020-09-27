@@ -17,7 +17,7 @@ attr_accessor :name
     return @@all
   end
 
-  def print_all
+  def print.all
     @@all.each do |dog|
     puts dog
   end
